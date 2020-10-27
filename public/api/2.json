@@ -1,0 +1,10 @@
+{
+    "prompt": "El tiene los boletos",
+    "correct": "b",
+    "answers": {
+        "b": "El los tiene",
+        "a": "Ella los tengo",
+        "c": "Ellas tiene",
+        "d": "El lo tengo"
+    }
+}
