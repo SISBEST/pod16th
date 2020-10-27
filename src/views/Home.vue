@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <marquee scrollamount="100"><h1>POD16th</h1></marquee>
+    <marquee scrollamount="100"> <img src="/img/logo.png" /> </marquee>
     <h2>LISTEN NOW:</h2>
     <router-link to="/listen">Episode 34829339493: Direct Object Pronouns</router-link>
     <h2>WHAT IS THIS:</h2>
