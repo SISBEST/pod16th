@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <marquee scrollamount="20"><h1>POD16th</h1></marquee>
+    <marquee scrollamount="100"><h1>POD16th</h1></marquee>
     <h2>LISTEN NOW:</h2>
-    <router-link to="/listen">Listen</router-link>
+    <router-link to="/listen">Episode 34829339493: Direct Object Pronouns</router-link>
     <h2>WHAT IS THIS:</h2>
     <p>
-      HAI IM SAMMY AND THIS IS MY EPIC SPANISH PODCASTTT?!?!?!?!?! WE DO COOL
+      HAI THIS IS MY EPIC SPANISH PODCASTTT?!?!?!?!?! WE DO COOL
       SPANISH STUFF EVERY WEEKK
     </p>
     <h2>THANKS TO:</h2>

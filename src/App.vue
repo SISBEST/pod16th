@@ -26,6 +26,10 @@ button b {
   color: #522398;
 }
 
+marquee {
+  font-size: 20pt;
+}
+
 h1 {
   color: #f9e300;
 }
