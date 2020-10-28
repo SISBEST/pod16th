@@ -2,7 +2,7 @@
   <div class="home">
     <marquee scrollamount="100"> <img src="/img/logo.png" /> </marquee>
     <h2>LISTEN NOW:</h2>
-    <router-link to="/listen">Episode 34829339493: Direct Object Pronouns</router-link>
+    <button> <b>A TO PLAY:</b> Episode 34829339493: Direct Object Pronouns</button>
     <h2>WHAT IS THIS:</h2>
     <p>
       HAI THIS IS MY EPIC SPANISH PODCASTTT?!?!?!?!?! WE DO COOL
@@ -11,13 +11,15 @@
     <h2>THANKS TO:</h2>
     <img
       src="/img/falling.png"
-      alt="I never loved you!"
+      id="sponsor"
       style="height: 120px"
     />
   </div>
 </template>
 
 <script>
+import * as Mousetrap from 'mousetrap';
+
 export default {
   data: () => {
     return {
@@ -25,9 +27,12 @@ export default {
     };
   },
   mounted() {
+    Mousetrap.bind('a', () => {
+      window.location.href = '/#/listen';
+    });
     setInterval(() => {
       if (this.linkActive) {
-        const el = document.querySelector("a");
+        const el = document.querySelector("button");
         if (el.style.display == "block") {
           el.style.display = "none";
         } else {

@@ -2,7 +2,7 @@
   <h1>
     Question {{ this.$router.currentRoute._value.params.qn }}: {{ question }}
   </h1>
-  <p style="color:white;">{{ answer }}</p>
+  <p style="color:black;">{{ answer }}</p>
   <button id="a"><b>A:</b> {{ answeropts.a }}</button>
   <button id="b"><b>B:</b> {{ answeropts.b }}</button>
   <button id="c"><b>C:</b> {{ answeropts.c }}</button>
