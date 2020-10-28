@@ -1,0 +1,10 @@
+{
+    "prompt": "Veo a la profesora [[[",
+    "correct": "c",
+    "answers": {
+        "a": "Veo",
+        "b": "Lo veo",
+        "c": "La veo",
+        "d": "Me veo"
+    }
+}

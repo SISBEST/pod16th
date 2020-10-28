@@ -9,7 +9,7 @@
 export default {
     methods: {
         moveon: function () {
-            if (parseInt(this.$router.currentRoute._value.params.qn, 10) == 10) {
+            if (parseInt(this.$router.currentRoute._value.params.qn, 10) == 4) {
                 window.location.href = '/#/';
             } else {
                 window.location.href = `/#/listen/question/${parseInt(this.$router.currentRoute._value.params.qn, 10) + 1}`;

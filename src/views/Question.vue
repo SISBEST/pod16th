@@ -2,7 +2,7 @@
   <h1>
     Question {{ this.$router.currentRoute._value.params.qn }}: {{ question }}
   </h1>
-  <p style="color:black;">{{ answer }}</p>
+  <p style="color: black">{{ answer }}</p>
   <button id="a"><b>A:</b> {{ answeropts.a }}</button>
   <button id="b"><b>B:</b> {{ answeropts.b }}</button>
   <button id="c"><b>C:</b> {{ answeropts.c }}</button>
@@ -25,19 +25,8 @@ export default {
         d: "",
       },
       answer: "",
-      righturls: ["/audio/right1.mp3", "/audio/right2.mp3", "/audio/right3.mp3", "/audio/right4.mp3", "/audio/right5.mp3"],
-      wrongurls: [
-        "/audio/wrong1.mp3",
-        "/audio/wrong2.mp3",
-        "/audio/wrong3.mp3",
-        "/audio/wrong4.mp3",
-        "/audio/wrong5.mp3",
-        "/audio/wrong6.mp3",
-        "/audio/wrong7.mp3",
-        "/audio/wrong8.mp3",
-        "/audio/wrong9.mp3",
-        "/audio/wrong10.mp3",
-      ],
+      righturls: ["/audio/right1.mp3", "/audio/right2.mp3"],
+      wrongurls: ["/audio/wrong1.mp3", "/audio/wrong2.mp3"],
     };
   },
   watch: {

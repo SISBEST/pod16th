@@ -1,0 +1,10 @@
+{
+    "prompt": "Victor tiene el itinerario ]]]",
+    "correct": "d",
+    "answers": {
+        "a": "Lo tiense",
+        "b": "Lo tengo",
+        "c": "Yo tengo",
+        "d": "Victor lo tiene"
+    }
+}
